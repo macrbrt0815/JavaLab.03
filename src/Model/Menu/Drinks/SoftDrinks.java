@@ -1,2 +1,4 @@
-package Model.Menu.Drinks;public class SoftDrinks {
+package Model.Menu.Drinks;
+
+public class SoftDrinks {
 }

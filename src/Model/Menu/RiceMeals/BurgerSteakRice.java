@@ -1,2 +1,4 @@
-package Model.Menu.RiceMeals;public class BurgerSteakRice {
+package Model.Menu.RiceMeals;
+
+public class BurgerSteakRice {
 }

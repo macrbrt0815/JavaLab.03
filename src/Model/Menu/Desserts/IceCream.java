@@ -1,4 +1,4 @@
-package Model.Menu.Dessert;
+package Model.Menu.Desserts;
 
 public class IceCream {
 }
