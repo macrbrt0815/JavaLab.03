@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78047ae3-90a5-4fbe-b3dc-b01567c88805" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JavaLab.03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Controller/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/BurgerMenuType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/DessertMenuType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/DrinksMenuType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Burgers/Burger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Burgers/BurgerOrders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Burgers/CheeseBurger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Burgers/QuarterPounder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Desserts/Cake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Desserts/IceCream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Drinks/IcedTea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Drinks/SoftDrinks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/Drinks/Water.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/RiceMeals/BurgerSteakRice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Menu/RiceMeals/FriedChickenRice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/OrderInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLab.03/Model/RiceMealMenuType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/BurgerMenuType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DessertMenuType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DrinksMenuType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Burgers/CheeseBurger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Burgers/QuarterPounder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Desserts/Cake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Desserts/IceCream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Drinks/IcedTea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Drinks/SoftDrinks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/Drinks/Water.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/RiceMeals/BurgerSteakRice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Menu/RiceMeals/FriedChickenRice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/OrderInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/RiceMealMenuType.java" beforeDir="false" />
-    </list>
+    <list default="true" id="78047ae3-90a5-4fbe-b3dc-b01567c88805" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +9,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
