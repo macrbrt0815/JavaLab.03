@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78047ae3-90a5-4fbe-b3dc-b01567c88805" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/Desserts/Cake.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/Desserts/Cake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/Desserts/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/Desserts/IceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/Drinks/IcedTea.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/Drinks/IcedTea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/Drinks/SoftDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/Drinks/SoftDrinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/Drinks/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/Drinks/Water.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/RiceMeals/BurgerSteakRice.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/RiceMeals/BurgerSteakRice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastFood/src/Model/Menu/RiceMeals/FriedChickenRice.java" beforeDir="false" afterPath="$PROJECT_DIR$/FastFood/src/Model/Menu/RiceMeals/FriedChickenRice.java" afterDir="false" />
-    </list>
+    <list default="true" id="78047ae3-90a5-4fbe-b3dc-b01567c88805" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
