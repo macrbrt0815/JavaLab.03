@@ -1,10 +1,17 @@
-package Model;
+package model;
 
-public class DessertMenuType implements OrderInterface{
-    private String menuCode;
-    private String name;
-    private String description;
-    private float price;
+import controller.Main;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class DrinksMenuType implements MenuInterface, OrderInterface{
+    final private static Logger logger = Logger.getLogger(DrinksMenuType.class.getName());
+
+    protected String menuCode;
+    protected String name;
+    protected String description;
+    protected float price;
 
     public String getMenuCode() {
         return menuCode;
@@ -41,5 +48,11 @@ public class DessertMenuType implements OrderInterface{
     @Override
     public void printOrder() {
 
+    }
+
+    @Override
+    public void printMenu() {
+        logger.log(Level.INFO, this.menuCode + " - " + this.name + " - Php " + this.price +
+                "\n" + this.description + "\n");
     }
 }

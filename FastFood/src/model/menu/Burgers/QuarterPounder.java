@@ -1,6 +1,6 @@
-package Model.Menu.Burgers;
+package model.menu.Burgers;
 
-import Model.BurgerMenuType;
+import model.BurgerMenuType;
 
 public class QuarterPounder extends BurgerMenuType {
 

@@ -1,6 +1,6 @@
-package Model.Menu.Drinks;
+package model.menu.Drinks;
 
-import Model.DrinksMenuType;
+import model.DrinksMenuType;
 
 public class Water extends DrinksMenuType {
 

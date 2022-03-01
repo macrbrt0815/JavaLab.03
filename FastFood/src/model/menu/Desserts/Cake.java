@@ -1,6 +1,6 @@
-package Model.Menu.Desserts;
+package model.menu.Desserts;
 
-import Model.DessertMenuType;
+import model.DessertMenuType;
 
 public class Cake extends DessertMenuType{
 

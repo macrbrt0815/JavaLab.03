@@ -1,6 +1,6 @@
-package Model.Menu.RiceMeals;
+package model.menu.RiceMeals;
 
-import Model.RiceMealMenuType;
+import model.RiceMealMenuType;
 
 public class BurgerSteakRice extends RiceMealMenuType{
 

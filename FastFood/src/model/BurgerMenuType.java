@@ -1,6 +1,13 @@
-package Model;
+package model;
 
-public class BurgerMenuType implements OrderInterface{
+import controller.Main;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class BurgerMenuType implements MenuInterface, OrderInterface{
+    final private static Logger logger = Logger.getLogger(BurgerMenuType.class.getName());
+
     protected String menuCode;
     protected String name;
     protected String description;
@@ -38,8 +45,14 @@ public class BurgerMenuType implements OrderInterface{
         this.price = price;
     }
 
+
     @Override
     public void printOrder() {
-        System.out.println(getName());
+    }
+
+    @Override
+    public void printMenu() {
+       logger.log(Level.INFO, this.menuCode + " - " + this.name + " - Php " + this.price +
+                "\n" + this.description + "\n");
     }
 }
