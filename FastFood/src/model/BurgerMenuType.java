@@ -48,11 +48,17 @@ public class BurgerMenuType implements MenuInterface, OrderInterface{
 
     @Override
     public void printOrder() {
+        logger.log(Level.INFO, this.menuCode + " : " + this.name + " - Php " + this.price);
+    }
+
+    @Override
+    public float getOrderPrice() {
+        return this.getPrice();
     }
 
     @Override
     public void printMenu() {
-       logger.log(Level.INFO, this.menuCode + " - " + this.name + " - Php " + this.price +
+       logger.log(Level.INFO,this.menuCode + " : " + this.name + " - Php " + this.price +
                 "\n" + this.description + "\n");
     }
 }
