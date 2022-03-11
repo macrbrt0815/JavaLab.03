@@ -1,14 +1,25 @@
 package utilities.proxy.hide;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class DatabaseMySQL implements Database{
     final private static Logger logger = Logger.getLogger(DatabaseMySQL.class.getName());
-    public static Connection con = null;
+    private static Connection connection = null;
 
     public static void connect(){
-        try(InputStream input
-                    = new FileInputStream("/Users/bernabe.cambarihan/Desktop/Bernabe/Java/JavaLab.03/FastFood/src/utility/config.properties")) {
-            Properties prop = new Properties();
-            prop.load(input);
+        /*
+        try(
+
+                //InputStream input = new FileInputStream("/Users/bernabe.cambarihan/Desktop/Bernabe/Java/JavaLab.03/FastFood/src/utility/config.properties")) {
+                //Properties prop = new Properties();
+                //prop.load(input);
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(
@@ -19,23 +30,30 @@ public class DatabaseMySQL implements Database{
         }catch (IOException ex){
             logger.log(Level.SEVERE, "IOException : ", ex);
         }
-    }
-
-    public static void disconnect() {
-        try{
-            if(con != null){
-                con.close();
-                logger.info("Disconnected");
+        */
+        if(connection == null) {
+            try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sms_database?useTimezone=true&serverTimezone=UTC", "root", "951236541");
+                logger.info("Connected");
+            } catch(SQLException sqle) {
+                sqle.printStackTrace();
+                logger.info("Not Connected");
+            } catch (Exception e){
+                e.printStackTrace();
+                logger.info("Not Connected");
             }
-        }catch (Exception e){
-            logger.log(Level.SEVERE, "Not Connected", e);
         }
     }
 
-    @Overide
-    public void insertOrder(String order){
-        connect();
-        //insert query here
-        disconnect();
+    public static void disconnect() {
+        try {
+            if (connection != null){
+                connection.close();
+                logger.info("Disconnected");
+            }
+        } catch (Exception e){
+            logger.log(Level.SEVERE, "Not Connected", e);
+        }
     }
 }
