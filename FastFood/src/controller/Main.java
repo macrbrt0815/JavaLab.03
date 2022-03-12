@@ -34,19 +34,19 @@ public class Main {
     }
 
     public static void displayMenu(){
-        RiceMealMenuType burgerSteak = new BurgerSteakRice();
-        RiceMealMenuType friedChicken = new FriedChickenRice();
-
-        Menu riceMeals = new Menu();
-        riceMeals.addMenu(burgerSteak);
-        riceMeals.addMenu(friedChicken);
-
         BurgerMenuType cheeseBurger = new CheeseBurger();
         BurgerMenuType quarterPounder = new QuarterPounder();
 
         Menu burgers = new Menu();
         burgers.addMenu(cheeseBurger);
         burgers.addMenu(quarterPounder);
+
+        DessertMenuType cake = new Cake();
+        DessertMenuType iceCream = new IceCream();
+
+        Menu desserts = new Menu();
+        desserts.addMenu(cake);
+        desserts.addMenu(iceCream);
 
         DrinksMenuType icedTea = new IcedTea();
         DrinksMenuType softDrinks = new SoftDrinks();
@@ -57,12 +57,12 @@ public class Main {
         drinks.addMenu(softDrinks);
         drinks.addMenu(waterBottle);
 
-        DessertMenuType cake = new Cake();
-        DessertMenuType iceCream = new IceCream();
+        RiceMealMenuType burgerSteak = new BurgerSteakRice();
+        RiceMealMenuType friedChicken = new FriedChickenRice();
 
-        Menu desserts = new Menu();
-        desserts.addMenu(cake);
-        desserts.addMenu(iceCream);
+        Menu riceMeals = new Menu();
+        riceMeals.addMenu(burgerSteak);
+        riceMeals.addMenu(friedChicken);
 
         Menu menu = new Menu();
         menu.addMenu(riceMeals);
@@ -116,6 +116,7 @@ public class Main {
                 case "DR1":
                     DrinksMenuType icedTea = new IcedTea();
                     drinkOrders.addOrder(icedTea);
+                    break;
                 case "DR2":
                     DrinksMenuType softDrinks = new SoftDrinks();
                     drinkOrders.addOrder(softDrinks);
